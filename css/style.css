@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700&display=swap');
+
+font-family: 'Catamaran', sans-serif;
+
+body{
+font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	font-color: var(--menu-hover);
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+}
+header{
+	background-color: #fff;
+	
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-negro);
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+
+	top-header {
+	position: relative;
+		top: 150px;
+		margin: auto;
+		width: 420;
+		height: 240;
+		background-image:url("../img/bg-services-title.jpg");
+		background-size: 100% 100%;
+		color: #fff;		
+		overflow: auto;
+	
+	
+	section{
+	padding: 5% 0;
+	}
+	
+	icono i {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: var(--color-azul);
+	margin: auto;
+	color: #e0e0e0;
+}
+		
+	services{
+	font-size: 50px;
+	margin-bottom: 20px;
+	font-weight: 300;
+		
+
+}
+	
+	features h4{
+	font-size: 18px;
+	margin-top: 30px;
+	text-align: center;
+		
+	
+}
+
+	see {
+		background-color:  #f7f7f7;
+	text-align: center;
+	color: var(--color-negro);	
+	font-size: 14px;
+	}
+	
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
